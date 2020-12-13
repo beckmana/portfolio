@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald|Shadows+Into+Light+Two');
+
+body {
+  background-color: #edf6f9;
+  margin: 0;
+}
+
+.wrapper {
+	width: 800px;
+	margin: auto;
+}
+
+/* -------------------------- Header --------------------------*/
+header {
+  background-color:#006d77;
+  height: 180px;
+}
+
+h1 {
+  color: #edf6f9;
+	font-family: 'Abril Fatface', cursive;
+  letter-spacing: 5px;
+	font-size: 70px;
+  text-align: center;
+	padding-top: 20px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+/*----------------------------- nav -----------------------------*/
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 20px;
+  color:#edf6f9;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #EB9486;
+}
+
+/* -------------------- intro/image --------------------- */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+}
+
+/* ----------------------- Main ----------------------- */
+main a {
+  text-decoration: none;
+  color:#EB9486;
+}
+
+main a:hover {
+  color: #ED6A5A;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: #EB9486;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+main p, ul, ol {
+  font-size: 18px;
+  margin: 10px 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+hr {
+  margin: 50px 0;
+  border-top: 1px dashed rgb(199, 199, 199);
+}
+
+#contact {
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 300px;
+  font-size: 25px;
+}
+
+/* ----------------------- footer ----------------------- */
+footer {
+    background-color: #006d77;
+    color: #edf6f9;
+    text-align: center;
+    margin: 100px 0 0 0;
+    padding: 20px 0;
+    height: 50px;
+}
+
