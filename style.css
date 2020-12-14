@@ -5,12 +5,15 @@ body {
   margin: 0;
 }
 
+/* wrapper */
+
 .wrapper {
 	width: 800px;
 	margin: auto;
 }
 
-/* -------------------------- Header --------------------------*/
+/*  Header */
+
 header {
   background-color:#006d77;
   height: 180px;
@@ -27,7 +30,8 @@ h1 {
   margin: 0;
 }
 
-/*----------------------------- nav -----------------------------*/
+/* navigation styles */
+
 nav {
   text-align: center;
   margin: 0;
@@ -47,7 +51,8 @@ nav a:hover {
   color: #EB9486;
 }
 
-/* -------------------- intro/image --------------------- */
+/* intro/image  */
+
 .center {
   display: block;
   margin-left: auto;
@@ -63,25 +68,7 @@ h3 {
   text-align: center;
 }
 
-/* ----------------------- Main ----------------------- */
-main a {
-  text-decoration: none;
-  color:#EB9486;
-}
-
-main a:hover {
-  color: #ED6A5A;
-}
-
-h2 {
-  font-family: 'Abril Fatface', cursive;
-  color: #EB9486;
-  text-align: center;
-  font-size: 50px;
-  text-decoration: underline;
-  letter-spacing: 2px;
-  margin: 0px;
-}
+/*  Main general */
 
 main p, ul, ol {
   font-size: 18px;
@@ -98,6 +85,31 @@ hr {
   border-top: 1px dashed rgb(199, 199, 199);
 }
 
+/* Main Links */
+
+main a {
+  text-decoration: none;
+  color:#EB9486;
+}
+
+main a:hover {
+  color: #ED6A5A;
+}
+
+/* Main Header */
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: #EB9486;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+/* contact */
+
 #contact {
   text-align: center;
 }
@@ -109,7 +121,8 @@ ol {
   font-size: 25px;
 }
 
-/* ----------------------- footer ----------------------- */
+/* footer */
+
 footer {
     background-color: #006d77;
     color: #edf6f9;
